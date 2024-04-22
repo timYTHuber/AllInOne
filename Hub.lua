@@ -17,6 +17,19 @@ local dingus = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local playerrng = Window:MakeTab({
+	Name = "Dingus",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+playerrng:AddButton({
+	Name = "killa0731 Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Killa5676/Killa-s-Scripts/main/Player%20RNG"))()
+  	end 
+})
+
 dingus:AddButton({
 	Name = "SyniXScripts Hub",
 	Callback = function()
