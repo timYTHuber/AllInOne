@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Player = game.Players.LocalPlayer
 
-local Window = OrionLib:MakeWindow({Name = "ScriptsInOne https://scriptsreseler.mysellix.io/", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroText = "All In One"})
+local Window = OrionLib:MakeWindow({Name = "ScriptsInOne https://luareseller.mysellix.io/", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroText = "All In One"})
 
 OrionLib:MakeNotification({
 	Name = "Loaded!",
