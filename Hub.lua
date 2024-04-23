@@ -18,7 +18,7 @@ local dingus = Window:MakeTab({
 })
 
 local playerrng = Window:MakeTab({
-	Name = "Dingus",
+	Name = "Player RNG",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
